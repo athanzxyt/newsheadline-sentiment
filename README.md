@@ -1,1 +1,1 @@
-# newsheadline_sentiment
+# News Headlines Sentiment Analysis
