@@ -26,8 +26,8 @@ The New York Times has a slightly greater polarity mean as it is shifted to the 
 Since our dataset meets the independent condition (there are likely more than one million news articles from 2015-2017), is generated from observation, and appears to be approximately normal (distributions and also generated from a significantly large dataset), we continue with a one-way ANOVA test of homogeneity. The hypothesis of the test can be found below.
 
 $$
-\[H_0: \mu_{WaPo} = \mu_{Vox} = ... = \mu_{Atlantic} = \mu_{CNN}\]
-\[H_a: \text{At least one of } \mu_k \text{ differs}\]
+H_0: \mu_{WaPo} = \mu_{Vox} = ... = \mu_{Atlantic} = \mu_{CNN} \
+H_a: \text{At least one of } \mu_k \text{ differs} \
 $$
 
 Where \(\mu_k\) represents the true mean polarity for each publisher. The results of the ANOVA can be found below.
@@ -37,7 +37,7 @@ Where \(\mu_k\) represents the true mean polarity for each publisher. The result
 | Category | 14     | 78.4    | 5.5992  | 97.592  | 2.2E-16 |
 | Residuals| 142551 | 8178.6  | 0.0574  |         |         |
 
-As we can see, we have a relatively high F-value which suggests that the means are not necessarily all equal. This is furthered by the p-value of 2.2E-16, which is less than \(\alpha = 0.05\); thus, we reject the null hypothesis. There is statistical evidence that one of the news headline categories does not have the same mean polarity.
+As we can see, we have a relatively high F-value which suggests that the means are not necessarily all equal. This is furthered by the p-value of 2.2E-16, which is less than 0.05; thus, we reject the null hypothesis. There is statistical evidence that one of the news headline categories does not have the same mean polarity.
 
 Conducting a Fisher LSD procedure aids us in identifying which publishers have similar means. The graphic below shoes this relationship.
 
