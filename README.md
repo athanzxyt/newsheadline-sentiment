@@ -23,20 +23,14 @@ The below graphic displays the polarities found in the headlines of specific pub
 
 The New York Times has a slightly greater polarity mean as it is shifted to the right of all the other density graphs. As the box plots show, noting that all outliers have already been removed, the publishers all have varying variances. For example, Talking Points Memo, Reuters, National Review, Fox News, CNN, Breitbart, and Atlantic all are centered on a polarity of 0, with almost no variance at all. New York Times, New York Post, Guardian, and Buzzfeed News have a similar range, mostly around 0.25. However, the other publishers all have a relatively high variance, with Business Insider having a range nearing 0.75.
 
-Since our dataset meets the independent condition (there are likely more than one million news articles from 2015-2017), is generated from observation, and appears to be approximately normal (distributions and also generated from a significantly large dataset), we continue with a one-way ANOVA test of homogeneity. The hypothesis of the test can be found below.
-
-![H0](https://latex.codecogs.com/png.latex?H_0%3A%20%5Cmu_%7BWaPo%7D%20%3D%20%5Cmu_%7BVox%7D%20%3D%20...%20%3D%20%5Cmu_%7BAtlantic%7D%20%3D%20%5Cmu_%7BCNN%7D)
-![Ha](https://latex.codecogs.com/png.latex?H_a%3A%20%5Ctext%7BAt%20least%20one%20of%20%7D%20%5Cmu_k%20%5Ctext%7B%20differs%7D)
-
-
-Where \(\mu_k\) represents the true mean polarity for each publisher. The results of the ANOVA can be found below.
+Since our dataset meets the independent condition (there are likely more than one million news articles from 2015-2017), is generated from observation, and appears to be approximately normal (distributions and also generated from a significantly large dataset), we continue with a one-way ANOVA test of homogeneity. The results of the ANOVA can be found below.
 
 | DF       | Sum Sq | Mean Sq | F-Value | P       |
 |----------|--------|---------|---------|---------|
 | Category | 14     | 78.4    | 5.5992  | 97.592  | 2.2E-16 |
 | Residuals| 142551 | 8178.6  | 0.0574  |         |         |
 
-As we can see, we have a relatively high F-value which suggests that the means are not necessarily all equal. This is furthered by the p-value of 2.2E-16, which is less than 0.05; thus, we reject the null hypothesis. There is statistical evidence that one of the news headline categories does not have the same mean polarity.
+As we can see, we have a relatively high F-value, which suggests that the means are not necessarily all equal. This is furthered by the p-value of 2.2E-16, which is less than 0.05; thus, we reject the null hypothesis. There is statistical evidence that one of the news headline categories does not have the same mean polarity.
 
 Conducting a Fisher LSD procedure aids us in identifying which publishers have similar means. The graphic below shows this relationship.
 
