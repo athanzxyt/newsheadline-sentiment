@@ -25,10 +25,9 @@ The New York Times has a slightly greater polarity mean as it is shifted to the 
 
 Since our dataset meets the independent condition (there are likely more than one million news articles from 2015-2017), is generated from observation, and appears to be approximately normal (distributions and also generated from a significantly large dataset), we continue with a one-way ANOVA test of homogeneity. The hypothesis of the test can be found below.
 
-$$
-H_0: \mu_{WaPo} = \mu_{Vox} = ... = \mu_{Atlantic} = \mu_{CNN} \
-H_a: \text{At least one of } \mu_k \text{ differs} \
-$$
+![H0](https://latex.codecogs.com/png.latex?H_0%3A%20%5Cmu_%7BWaPo%7D%20%3D%20%5Cmu_%7BVox%7D%20%3D%20...%20%3D%20%5Cmu_%7BAtlantic%7D%20%3D%20%5Cmu_%7BCNN%7D)
+![Ha](https://latex.codecogs.com/png.latex?H_a%3A%20%5Ctext%7BAt%20least%20one%20of%20%7D%20%5Cmu_k%20%5Ctext%7B%20differs%7D)
+
 
 Where \(\mu_k\) represents the true mean polarity for each publisher. The results of the ANOVA can be found below.
 
