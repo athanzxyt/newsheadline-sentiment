@@ -5,7 +5,7 @@
 ![R Badge](https://img.shields.io/badge/R-276DC3?logo=r&logoColor=fff&style=flat)
 ![LaTeX Badge](https://img.shields.io/badge/LaTeX-008080?logo=latex&logoColor=fff&style=flat)
 
-This repository contains the code and resources for the final project titled "Sentiment Distribution Analysis of News Headlines using Natural Language Processing and ANOVA Techniques.
+This repository contains the code and resources for the final project titled "Sentiment Distribution Analysis of News Headlines using Natural Language Processing and ANOVA Techniques."
 
 ## Project Overview
 
