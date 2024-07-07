@@ -39,7 +39,7 @@ Where \(\mu_k\) represents the true mean polarity for each publisher. The result
 
 As we can see, we have a relatively high F-value which suggests that the means are not necessarily all equal. This is furthered by the p-value of 2.2E-16, which is less than 0.05; thus, we reject the null hypothesis. There is statistical evidence that one of the news headline categories does not have the same mean polarity.
 
-Conducting a Fisher LSD procedure aids us in identifying which publishers have similar means. The graphic below shoes this relationship.
+Conducting a Fisher LSD procedure aids us in identifying which publishers have similar means. The graphic below shows this relationship.
 
 ![relationships](https://github.com/athanzxyt/newsheadline-sentiment/blob/main/whitepaper/images/relationships.png)
 
