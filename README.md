@@ -7,7 +7,7 @@
 
 This repository contains the code and resources for the final project titled "Sentiment Distribution Analysis of News Headlines using Natural Language Processing and ANOVA Techniques."
 
-[header](https://github.com/athanzxyt/newsheadline-sentiment/blob/main/header.png)
+![header](https://github.com/athanzxyt/newsheadline-sentiment/blob/main/header.png)
 
 ## Abstract
 
