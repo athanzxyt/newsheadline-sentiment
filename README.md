@@ -7,19 +7,7 @@
 
 This repository contains the code and resources for the final project titled "Sentiment Distribution Analysis of News Headlines using Natural Language Processing and ANOVA Techniques."
 
-## Project Overview
-
-Sentiment analysis plays a crucial role in understanding public opinion and sentiment towards various topics. This study presents an application of Natural Language Processing (NLP) techniques combined with Analysis of Variance (ANOVA) to analyze sentiment in news headlines. The objective is to gain insights into the overall sentiment and identify any significant differences in sentiment across different news categories and publishers.
-
-## Authors
-
-- **Athan Zhang** - 1570738
-- **Aidan Li** - 1562961
-- **Amy Wang** - 1560918
-
-## Institution
-
-Torbert Research Statistics, Thomas Jefferson High School for Science and Technology
+[header](https://github.com/athanzxyt/newsheadline-sentiment/blob/main/header.png)
 
 ## Abstract
 
